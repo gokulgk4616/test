@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+    <header>
+        <h1>Tech Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <input type="search" placeholder="Search...">
+    </header>
+
+    <main>
+        <section id="articles">
+            <h2>Articles</h2>
+            <!-- Add your articles here -->
+            <article>
+                <h3>Article Title</h3>
+                <p>Article summary...</p>
+                <a href="#">Read more</a>
+                <img src="https://th.bing.com/th/id/R.45b600aa606e03e470dec5f9adcd3248?rik=NxSsDRRowb8cGw&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fngPEfyE.jpg&ehk=H8cSGsfjlgPQaG1%2f3Ozt2CphyeUbP7kRRn7Dc8mef9s%3d&risl=&pid=ImgRaw&r=0" alt="Article Image">
+            </article>
+        </section>
+
+        <section id="news">
+            <h2>News</h2>
+            <!-- Add your news here -->
+            <article>
+                <h3>News Title</h3>
+                <p>News summary...</p>
+                <a href="#">Read more</a>
+                <img src="https://th.bing.com/th/id/R.e05b5079a2607a7888fed0ff623dcfa0?rik=q9vioe9x2mjexg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fHigh-Tech-Photos.jpg&ehk=8vnf%2bQgq7SVWznhgAh2XnIDkZ319QOMJyhKA%2f1HUL6E%3d&risl=&pid=ImgRaw&r=0" alt="News Image">
+            </article>
+        </section>
+
+        <section id="videos">
+            <h2>Videos</h2>
+            <!-- Add your videos here -->
+            <div class="video">
+                <h3>Video Title</h3>
+                <iframe src="https://www.youtube.com/embed/TegyPHElsZs" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section id="subscribe">
+            <h2>Subscribe</h2>
+            <form>
+                <label for="email-subscribe">Email:</label>
+                <input type="email" id="email-subscribe" name="email-subscribe" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Technology Blog</p>
+    </footer>
+</body>
+</html>

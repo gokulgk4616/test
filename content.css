@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center fixed; 
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+input[type="search"] {
+    padding: 0.5em;
+    margin-top: 1em;
+    border: none;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 0.5em;
+}
+
+article {
+    margin-bottom: 1em;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+form label, form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 1em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.7);
+}
