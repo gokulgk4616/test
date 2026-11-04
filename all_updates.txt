@@ -1,0 +1,17 @@
+Last metadata expiration check: 1 day, 22:11:50 ago on Mon Nov  2 20:04:17 2026.
+
+apr.x86_64                         1.7.5-1.amzn2023.0.4              amazonlinux
+apr-util.x86_64                    1.6.5-1.amzn2023.0.1              amazonlinux
+apr-util-openssl.x86_64            1.6.5-1.amzn2023.0.1              amazonlinux
+containerd.x86_64                  2.3.7-1.amzn2023.0.2              amazonlinux
+docker.x86_64                      25.0.18-1.amzn2023.0.2            amazonlinux
+httpd.x86_64                       2.4.69-1.amzn2023.0.2             amazonlinux
+httpd-core.x86_64                  2.4.69-1.amzn2023.0.2             amazonlinux
+httpd-filesystem.noarch            2.4.69-1.amzn2023.0.2             amazonlinux
+httpd-tools.x86_64                 2.4.69-1.amzn2023.0.2             amazonlinux
+libbrotli.x86_64                   1.1.0-1.amzn2023.0.2              amazonlinux
+mod_http2.x86_64                   1:2.4.69-1.amzn2023.0.2           amazonlinux
+mod_lua.x86_64                     2.4.69-1.amzn2023.0.2             amazonlinux
+pigz.x86_64                        2.5-1.amzn2023.0.4                amazonlinux
+runc.x86_64                        1.4.3-1.amzn2023.0.3              amazonlinux
+systemtap-runtime.x86_64           5.4-1.amzn2023.0.2                amazonlinux
